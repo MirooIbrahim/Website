@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-color: Grey;
+  border-width: 5px;
+  width: 5%
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 5.6rem;
+  color: #48466D;
+}
+
+h2 {
+  font-family: 'Sacramento', sans-serif;
+  font-size: 3.125rem;
+  margin-bottom: 10px;
+  margin-top: 0;
+  padding-top: 20px;
+  color: #48466D;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #3D84A8;
+}
+
+.TopSection {
+  background-color: #DEFCF9;
+  position: relative;
+  padding-top: 100px;
+}
+
+.sun {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  height: 125px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile {
+  padding-bottom: 40px;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+
+.profile-pic {
+  height: 300px;
+  margin-top: 40px;
+}
+
+.skills {
+  padding-bottom: 40px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: justify;
+}
+
+.Design {
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.Digital {
+  width: 40%;
+  float: right;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+.contact-me {
+  padding-top: 20px;
+  width: 30%;
+  margin: auto;
+}
+
+.button {
+  backface-visibility: hidden;
+position: relative;
+cursor: pointer;
+display: inline-block;
+white-space: nowrap;
+background: #3D94F6;
+border-radius: 11px;
+border: 3px solid #ffffff;
+border-width: 3px 3px 3px 3px;
+padding: 13px 16px 12px 16px;
+  color: #ffffff;
+font-size: 16px;
+font-family: arial;
+font-weight: 300;
+font-style: normal
+}
+.button > div {
+  color: #999999;
+font-size: 10px;
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+font-style: normal;
+text-align: center;
+margin: 0;
+}
+.button > i {
+  font-size: 1em;
+border-radius: 0;
+border: 0 solid transparent;
+border-width: 0;
+padding: 0;
+margin: 0 0 0 13px;
+position: static
+}
+
+.button:hover {
+  background-color: #1680F7
+}
+
+.end {
+  color: white;
+  padding: 20px 0;
+  font-size: 0.75rem;
+}
+
+a {
+color: #3D84A8;
+font-family: 'Montserrat', sans-serif;
+margin: 10px 20px;
+text-decoration: none;
+}
+
+a:hover {
+color: white;
+}
+
+.BottomSection {
+  background-color: #48466D;
+  margin-top: 40px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
